@@ -1,0 +1,32 @@
+.header__item2 {
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    width: 8%;
+}
+.header__item2:hover {
+    color: whitesmoke;
+   text-decoration: underline 3px #fbdc33;
+   transition: 1ms;
+}
+
+/* layout responsivo */
+
+@media screen and (min-width: 0){
+    .header__item2{
+        display: flex;
+        font-size: 12px;
+        margin: 32px 8px 0 33px;
+        padding: 6px 0 0 0px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .header__item2{
+        display: inline;
+        font-size: 14px;
+        margin: 32px 15px 35px 10px;
+        padding: 2px 0 2px 0px;
+    }
+
+}
