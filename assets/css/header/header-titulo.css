@@ -1,0 +1,21 @@
+.header__titulo {
+    color: rgb(235 224 88);
+    font-family: 'Bangers', cursive;
+    font-size: 35px;
+    padding: 10px 10px 0 20px;
+    text-shadow: 5px 6px 3px black;
+    width: 35%;
+}
+/* layout responsivo */
+@media screen and (min-width: 0){
+    .header__titulo{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .header__titulo{
+        display: inline;
+    }
+
+}

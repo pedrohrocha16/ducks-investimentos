@@ -1,5 +1,19 @@
 .header__nav{
     color: whitesmoke;
     display: flex;
-    width: 70%;
+   
+}
+
+/* layout responsivo */
+@media screen and (min-width: 0){
+    .header__nav{
+        width: 58%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .header__nav{
+        width: 70%;
+    }
+
 }
