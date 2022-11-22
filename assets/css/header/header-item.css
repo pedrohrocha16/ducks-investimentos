@@ -1,7 +1,7 @@
 .header__item {
     background: rgb(112 112 112);
     border: none;
-    border-radius: 10px;
+    
     color: whitesmoke;
     font-family: 'Merriweather', serif;
     font-weight: 400;
@@ -17,14 +17,16 @@
 
 @media screen and (min-width: 0){
     .header__item{
+        border-radius: 3px;
         font-size: 12px;
         height: 50%;
-        margin: 25px -15px 0px -15px;
+        margin: 25px -10px 0 -25px;
     }
 }
 
 @media screen and (min-width: 768px){
     .header__item{
+        border-radius: 10px;
         font-size: 13px;
         margin: 20px 15px 20px 25px;
     }

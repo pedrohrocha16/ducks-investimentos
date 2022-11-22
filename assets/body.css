@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(rgb(75, 74, 74), black);
+    height: 625px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+} 
+.content {
+    height: 520px;
+    left: 50%;
+    position: absolute;
+    overflow: hidden;
+    top: 46.5%;
+    transform: translate(-50%, -35%);
+    width: 100%;
+}
+.navigation {
+    display: flex;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%) ;
+}
+.bar {
+    width: 40px;
+    
+    border: 2px solid white;
+   
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .3s;
+}
+.bar:hover {
+    background: rgb(72, 201, 252);
+    
+}
+input {
+    display: none;
+}
+.slides {
+    display: flex;
+    height: 100%;
+    width: 500%;
+}
+.slide {
+    transition: .6s;
+    width: 20%;
+}
+.slide img {
+    width: 100%; 
+}
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+#slide2:checked ~ .s1{
+    margin-left: -20%;
+}
+#slide3:checked ~ .s1{
+    margin-left: -40%;
+}
+#slide4:checked ~ .s1{
+    margin-left: -60%;
+}
+#slide5:checked ~ .s1{
+    margin-left: -80%;
+}
+
+/* Layout responsivo */
+@media screen and (min-width: 0){
+    .slide img {
+        height: 60%;
+    }
+    .navigation{
+        bottom: 210px;
+    }
+    .bar {
+        height: 20px;
+        margin: 13px;
+    }
+
+
+
+}
+@media screen and (min-width: 768px){
+    .slide img {
+        height: 100%;
+    }
+    .navigation {
+        bottom: 20px;
+    }
+    .bar {
+        height: 17px;
+        margin: 6px;
+    }
+
+}

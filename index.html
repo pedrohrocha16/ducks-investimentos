@@ -19,11 +19,12 @@
         <link rel="stylesheet" href="assets\css\header\header-descricao.css">
         <link rel="stylesheet" href="assets\css\header\header-item2.css">
         <link rel="stylesheet" href="assets\css\header\header-descricao2.css">
-       <link rel="stylesheet" href="assets\css\header\header-titulo.css">
-
+        <link rel="stylesheet" href="assets\css\header\header-titulo.css">
+        <link rel="stylesheet" href="assets\body.css">
 
     </head>
-    <body class="body">
+
+    <body>
         <header class="header">
             <img class="header__logo" src="img\logo-header.png" alt="logo-header">
                 <ul class="header__nav">
@@ -34,5 +35,37 @@
                 </ul>
                 <h1 class="header__titulo">Duck's Investimentos</h1>
         </header>
+        <div class="content">
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+                <input type="radio" name="slide" id="slide5">
+
+                <div class="slide s1">
+                    <img src="img\sld-1.jpg" alt="slide1">
+                </div>
+                <div class="slide">
+                    <img src="img\sld-2.jpg" alt="slide2">
+                </div>
+                <div class="slide">
+                    <img src="img\sld-3.jpg" alt="slide3">
+                </div>
+                <div class="slide">
+                    <img src="img\sld-4.jpg" alt="slide4">
+                </div>
+                <div class="slide">
+                    <img src="img\sld-5.jpg" alt="slide5">
+                </div>
+            </div>
+            <div class="navigation">
+                <label class="bar" for="slide1"></label>
+                <label class="bar" for="slide2"></label>
+                <label class="bar" for="slide3"></label>
+                <label class="bar" for="slide4"></label>
+                <label class="bar" for="slide5"></label>
+            </div>
+        </div>    
     </body>
 </html>
