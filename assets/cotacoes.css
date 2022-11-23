@@ -10,16 +10,18 @@
 }
 @media screen and (min-width: 0){
     .cotacoes__titulo{
+        font-size: 35px;
         position: absolute;
-        left: 3%;
+        left: 9%;
         top: 68%;
-    }
+    }   
 
 }
 @media screen and (min-width: 768px){
     .cotacoes__titulo{
+        font-size: 35px;
         position: absolute;
-        left: 38%;
+        left: 39.5%;
         top: 102%;
     }
     
