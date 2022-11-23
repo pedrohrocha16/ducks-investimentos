@@ -2,7 +2,6 @@
     color: gold;
     display: flex;
     font-family: 'Bangers', cursive;
-    font-size: 20px;
     margin: 315px 0 0 0;
     padding-left: 15px;
     text-align: center;
@@ -10,9 +9,9 @@
 }
 @media screen and (min-width: 0){
     .cotacoes__titulo{
-        font-size: 34px;
+        font-size: 30px;
         position: absolute;
-        left: 9%;
+        left: 17%;
         top: 68%;
     }   
 
