@@ -1,0 +1,18 @@
+.tradingview-gadget {
+    display: flex;
+}
+
+@media screen and (min-width: 0){
+    .tradingview-gadget{
+        margin: 0 0 100px -55px;
+        padding: 110px 0 0 70px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .tradingview-gadget{ 
+        position: absolute;
+        top: 100%;
+        left: 37%;
+    }
+}

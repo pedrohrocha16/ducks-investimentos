@@ -11,16 +11,15 @@
         <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
         <title>Duck's Investimentos</title>
-        <link rel="stylesheet" href="assets\body.css">
         <link rel="stylesheet" href="assets\css\header\header.css">
         <link rel="stylesheet" href="assets\css\header\header-logo.css">
         <link rel="stylesheet" href="assets\css\header\header-nav.css">
         <link rel="stylesheet" href="assets\css\header\header-item.css">
-        <link rel="stylesheet" href="assets\css\header\header-descricao.css">
         <link rel="stylesheet" href="assets\css\header\header-item2.css">
-        <link rel="stylesheet" href="assets\css\header\header-descricao2.css">
         <link rel="stylesheet" href="assets\css\header\header-titulo.css">
         <link rel="stylesheet" href="assets\css\body.css">
+        <link rel="stylesheet" href="assets\css\tradingview-gadget.css">
+        <link rel="stylesheet" href="assets\cotacoes.css">
 
     </head>
 
@@ -67,5 +66,35 @@
                 <label class="bar" for="slide5"></label>
             </div>
         </div>
+
+        <section class="cotacoes">
+            <h1 class="cotacoes__titulo" >Cotações em tempo real:</h1>
+
+        </section>
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-gadget">
+                <div id="tradingview_793a7"></div>
+                <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/BTCUSDT/?exchange=BINANCE" rel="noopener" target="_blank"></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                <script type="text/javascript">
+                new TradingView.widget(
+                {
+                "width": 350,
+                "height": 500,
+                "symbol": "BINANCE:BTCUSDT",
+                "interval": "5",
+                "timezone": "Etc/UTC",
+                "theme": "dark",
+                "style": "1",
+                "locale": "br",
+                "toolbar_bg": "#f1f3f6",
+                "enable_publishing": false,
+                "allow_symbol_change": true,
+                "container_id": "tradingview_793a7"
+            }
+                );
+                </script>
+            </div>
+            <!-- TradingView Widget END -->
     </body>
 </html>

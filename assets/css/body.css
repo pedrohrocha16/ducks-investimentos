@@ -1,6 +1,5 @@
 body {
-    background: linear-gradient(rgb(75, 74, 74), black);
-    height: 625px;
+    background: #202020;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -76,9 +75,10 @@ input {
         height: 20px;
         margin: 13px;
     }
-
-
-
+    .body {
+        height: 1015px;
+    }
+  
 }
 @media screen and (min-width: 768px){
     .slide img {
@@ -88,8 +88,13 @@ input {
         bottom: 20px;
     }
     .bar {
-        height: 17px;
-        margin: 6px;
+        height: 10px;
+        margin: 10px;
     }
-
+    .s1 {
+        height: 800px;
+    }
+    .body {
+        height: 1225px;
+    }
 }

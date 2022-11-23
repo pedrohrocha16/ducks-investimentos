@@ -1,0 +1,26 @@
+.cotacoes {
+    color: gold;
+    display: flex;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+    margin: 315px 0 0 0;
+    padding-left: 15px;
+    text-align: center;
+    text-shadow: 5px 6px 3px black;
+}
+@media screen and (min-width: 0){
+    .cotacoes__titulo{
+        position: absolute;
+        left: 3%;
+        top: 68%;
+    }
+
+}
+@media screen and (min-width: 768px){
+    .cotacoes__titulo{
+        position: absolute;
+        left: 38%;
+        top: 102%;
+    }
+    
+}
