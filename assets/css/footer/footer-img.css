@@ -1,0 +1,18 @@
+.footer__img{
+    display: flex;
+}
+
+@media screen and (min-width: 0){
+    .footer__img{
+        height: 65%;
+        left: 175px;
+        position: absolute;
+        top: 15%;
+    }
+}
+@media screen and (min-width: 768px){
+    .footer__img{
+        left: 48.5%;
+    }
+
+}

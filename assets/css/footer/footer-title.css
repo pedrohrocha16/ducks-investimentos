@@ -1,0 +1,22 @@
+.footer__title {
+    color: #c9c5c5;
+    display: flex;
+    font-family: 'Bangers', cursive;
+    FONT-SIZE: 10px;
+    left: 110px;
+    position: absolute;
+    text-align: center;
+}
+@media screen and (min-width: 0px){
+    .footer__title{
+        left: 30%;
+        top: 70%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .footer__title{
+        left: 45%;
+        top: 70%;
+    }
+}

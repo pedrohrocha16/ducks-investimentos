@@ -1,0 +1,22 @@
+.footer {
+    background: #161414;    
+}
+
+@media screen and (min-width: 0){
+    .footer {
+        display: flex;
+        height: 106px;
+        position: absolute;
+        top: 83%;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px){
+    .footer {
+        display: flex;
+        height: 106px;
+        position: absolute;
+        top: 98.7%;
+        width: 100%;
+    }
+}
