@@ -4,15 +4,17 @@
 
 @media screen and (min-width: 0){
     .footer__img{
-        height: 65%;
-        left: 175px;
+        height: 35%;
+        left: 185px;
         position: absolute;
-        top: 15%;
+        top: 25%;
     }
 }
 @media screen and (min-width: 768px){
     .footer__img{
-        left: 48.5%;
+        height: 40%;
+        left: 47%;
+        top: 30%;
     }
 
 }

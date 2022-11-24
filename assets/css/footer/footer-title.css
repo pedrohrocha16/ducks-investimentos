@@ -2,21 +2,23 @@
     color: #c9c5c5;
     display: flex;
     font-family: 'Bangers', cursive;
-    FONT-SIZE: 10px;
     left: 110px;
-    position: absolute;
     text-align: center;
 }
 @media screen and (min-width: 0px){
     .footer__title{
+        font-size: 10px;
         left: 30%;
-        top: 70%;
+        position: absolute;
+        top: 52%;
     }
 }
 
 @media screen and (min-width: 768px){
     .footer__title{
-        left: 45%;
+        font-size: 10px;
+        left: 42%;
+        position: absolute;
         top: 70%;
     }
 }

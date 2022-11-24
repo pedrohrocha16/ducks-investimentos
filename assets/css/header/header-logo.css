@@ -1,20 +1,15 @@
-.header__logo {
-    position: relative;
-}
 
-/* layout responsivo */
 @media screen and (min-width: 0){
     .header__logo{
         height: 50px;
-        top: 15%;
-        left: 0%;
+        padding: 10px 18px 0 5px;
         width: 25%;
     }
 }
 
 @media screen and (min-width: 768px){
     .header__logo{
-        height: 60px;
+        height: 55px;
         left: 0;
         top: 5%;
         width: 12%;
