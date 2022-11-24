@@ -14,11 +14,9 @@
 
 @media screen and (min-width: 0){
     .header__item2{
-        display: flex;
-        font-size: 12px;
-        justify-content: center;
-        margin: 32px -8px 0 33px;
-        padding: 10px 18px 0 15px;
+        display: inline;
+        font-size: 11px;
+        padding-left: 18px;
     }
 }
 

@@ -5,7 +5,7 @@
     color: whitesmoke;
     font-family: 'Merriweather', serif;
     font-weight: 400;
-    padding:  0px 5px 0px 5px; 
+    padding: 0px 4px 0px 4px;
 }
 .header__item:hover {
     background:  #fbdc33;
@@ -17,10 +17,10 @@
 
 @media screen and (min-width: 0){
     .header__item{
-        border-radius: 3px;
-        font-size: 12px;
-        height: 50%;
-        margin: 25px -10px 0 -25px;
+        border-radius: 15px;
+        font-size: 11px;
+        height: 80%;
+        margin: 10px 5px 0 -34px;
     }
 }
 
@@ -28,7 +28,7 @@
     .header__item{
         border-radius: 10px;
         font-size: 13px;
-        margin: 20px 15px 20px 25px;
+        margin: 10px 25px 60px 5px;
     }
 
 }

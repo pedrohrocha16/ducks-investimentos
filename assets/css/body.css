@@ -5,7 +5,7 @@ body {
     width: 100%;
 } 
 .content {
-    height: 520px;
+    height: 510px;
     left: 50%;
     position: absolute;
     overflow: hidden;
@@ -24,7 +24,7 @@ body {
     
     border: 2px solid white;
    
-    border-radius: 25px;
+   
     cursor: pointer;
     transition: .3s;
 }
@@ -66,14 +66,16 @@ input {
 /* Layout responsivo */
 @media screen and (min-width: 0){
     .slide img {
-        height: 60%;
+        height: 80%;
     }
     .navigation{
-        bottom: 210px;
+        bottom: 100px;
     }
     .bar {
-        height: 20px;
-        margin: 13px;
+        border-radius: 13px;
+        height: 15px;
+        margin: 15px;
+        width: 15px;
     }
     .body {
         height: 1015px;
@@ -88,8 +90,10 @@ input {
         bottom: 20px;
     }
     .bar {
-        height: 10px;
-        margin: 10px;
+        border-radius: 25px;
+        height: 15px;
+        margin: 15px;
+        width: 15px;
     }
     .s1 {
         height: 800px;

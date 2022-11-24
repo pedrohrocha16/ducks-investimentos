@@ -1,13 +1,12 @@
 .header__nav{
     color: whitesmoke;
-    display: flex;
    
 }
 
 /* layout responsivo */
 @media screen and (min-width: 0){
     .header__nav{
-        width: 58%;
+        width: 100%;
     }
 }
 

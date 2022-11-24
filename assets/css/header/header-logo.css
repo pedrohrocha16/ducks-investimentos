@@ -5,19 +5,19 @@
 /* layout responsivo */
 @media screen and (min-width: 0){
     .header__logo{
-        height: 62px;
-        top: 28%;
-        left: -3%;
-        width: 32%;
+        height: 50px;
+        top: 15%;
+        left: -5%;
+        width: 25%;
     }
 }
 
 @media screen and (min-width: 768px){
     .header__logo{
-        height: 85px;
+        height: 60px;
         left: 0;
-        top: 12%;
-        width: 15%;
+        top: 5%;
+        width: 12%;
     }
 
 }
