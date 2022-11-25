@@ -1,0 +1,22 @@
+/* layout responsivo*/
+@media screen and (min-width: 0){
+    .tradingview-widget-container2{
+    position: absolute;
+    top: 84%;
+    }
+    .tradingview-widget-container3{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px){
+    .tradingview-widget-container2{
+    display: none;
+    }
+    .tradingview-widget-container3{
+        display: flex;
+        margin: 15px 0 0 0;
+        padding: 15px 0 0 11%;
+        position: absolute;
+        top: 100%;
+    }
+}

@@ -72,10 +72,7 @@ input {
         bottom: 100px;
     }
     .bar {
-        border-radius: 13px;
-        height: 15px;
-        margin: 15px;
-        width: 15px;
+        display: none;
     }
     .body {
         height: 1015px;
@@ -90,10 +87,7 @@ input {
         bottom: 20px;
     }
     .bar {
-        border-radius: 25px;
-        height: 15px;
-        margin: 15px;
-        width: 15px;
+        display: none;
     }
     .s1 {
         height: 800px;

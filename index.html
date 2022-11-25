@@ -22,6 +22,7 @@
         <link rel="stylesheet" href="assets\css\footer\footer.css">
         <link rel="stylesheet" href="assets\css\footer\footer-title.css">
         <link rel="stylesheet" href="assets\css\footer\footer-img.css">
+        <link rel="stylesheet" href="assets\css\widget.css">
 
     </head>
 
@@ -37,7 +38,7 @@
                 <h1 class="header__titulo">Duck's Investimentos</h1>
         </header>
 
-        <!-- TradingView Widget BEGIN -->
+        <!-- Primeiro Widget  -->
         <div class="tradingview-widget-container">
             <div class="tradingview-widget-container__widget"></div>
             <div class="tradingview-widget-copyright"></div>
@@ -74,7 +75,7 @@
             }
             </script>
         </div>
-        <!-- TradingView Widget END -->
+        <!-- Primeiro Widget END -->
 
         <div class="content">
             <div class="slides">
@@ -108,9 +109,120 @@
                 <label class="bar" for="slide5"></label>
             </div>
         </div>
+    
+        <!-- Segundo Widget -->
+        <div class="tradingview-widget-container2">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/markets/futures/" rel="noopener" target="_blank"><a href="https://br.tradingview.com/markets/currencies/" rel="noopener" target="_blank"></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+            {
+            "colorTheme": "dark",
+            "dateRange": "ALL",
+            "showChart": true,
+            "locale": "br",
+            "largeChartUrl": "",
+            "isTransparent": false,
+            "showSymbolLogo": true,
+            "showFloatingTooltip": false,
+            "width": "400",
+            "height": "660",
+            "plotLineColorGrowing": "rgba(0, 255, 0, 1)",
+            "plotLineColorFalling": "rgba(0, 255, 0, 1)",
+            "gridLineColor": "rgba(240, 243, 250, 0)",
+            "scaleFontColor": "rgba(106, 109, 120, 1)",
+            "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+            "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+            "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+            "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+            "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+            "tabs": [
+            {
+                "title": "Futuros",
+                "symbols": [
+                {
+                    "s": "CME_MINI:ES1!",
+                    "d": "S&P 500"
+                },
+                {
+                    "s": "CME:6E1!",
+                    "d": "Euro"
+                },
+                {
+                    "s": "COMEX:GC1!",
+                    "d": "Gold"
+                },
+                {
+                    "s": "NYMEX:CL1!",
+                    "d": "Crude Oil"
+                },
+                {
+                    "s": "NYMEX:NG1!",
+                    "d": "Natural Gas"
+                },
+                {
+                    "s": "CBOT:ZC1!",
+                    "d": "Corn"
+                }
+                ],
+                "originalTitle": "Futures"
+            },
+            {
+                "title": "Forex",
+                "symbols": [
+                {
+                    "s": "FX:EURUSD",
+                    "d": "EUR/USD"
+                },
+                {
+                    "s": "FX:GBPUSD",
+                    "d": "GBP/USD"
+                },
+                {
+                    "s": "FX:USDJPY",
+                    "d": "USD/JPY"
+                },
+                {
+                    "s": "FX:USDCHF",
+                    "d": "USD/CHF"
+                },
+                {
+                    "s": "FX:AUDUSD",
+                    "d": "AUD/USD"
+                },
+                {
+                    "s": "FX:USDCAD",
+                    "d": "USD/CAD"
+                }
+                ],
+                "originalTitle": "Forex"
+            }
+            ]
+        }
+            </script>
+        </div>
+        <!-- Segundo Widget END -->
+                <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container3">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener" target="_blank"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+            {
+            "width": "1050",
+            "height": "210%",
+            "defaultColumn": "overview",
+            "screener_type": "crypto_mkt",
+            "displayCurrency": "USD",
+            "colorTheme": "dark",
+            "locale": "br"
+        }
+            </script>
+        </div>
+        <!-- TradingView Widget END -->
+
         <footer class="footer">
             <img  class="footer__img" src="img\corretora-xp.png" alt="Logo-xpinvestimentos">
             <p class="footer__title">&#169;Duck's Investimentos - Patos de Minas MG</p>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
