@@ -6,8 +6,8 @@
     .footer {
         display: flex;
         height: 106px;
-        position: relative;
-        top: 208%;
+        position: absolute;
+        top: 195%;
         width: 100%;
     }
 }
