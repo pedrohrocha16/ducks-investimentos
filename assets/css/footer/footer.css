@@ -4,7 +4,6 @@
 
 @media screen and (min-width: 0){
     .footer {
-        display: flex;
         height: 106px;
         position: absolute;
         top: 195%;
